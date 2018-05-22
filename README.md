@@ -17,8 +17,8 @@ compile 'com.github.ankitdubey021:MyAlertDialog:1.0.3'
 
 <h2> Simple Default Dialog</h2>
 
-```diff
-+ new EasyDialog.Builder(this)
+```
+new EasyDialog.Builder(this)
                 .setTitle("Exit!")
                 .setSubtitle("Are you sure?")
                 .isCancellable(true)
@@ -41,8 +41,8 @@ compile 'com.github.ankitdubey021:MyAlertDialog:1.0.3'
 
 <h2> Custom Alert Dialog</h2>
 
-```diff
-+ new EasyCustomDialog.Builder(this,"Exit!")
+```
+new EasyCustomDialog.Builder(this,"Exit!")
                 .setSubTitle("Are you Sure?")
                 //.setHeader("Hello Guest")
                 //.setIcon(getResources().getDrawable(R.drawable.ic_error_outline_black_24dp))
